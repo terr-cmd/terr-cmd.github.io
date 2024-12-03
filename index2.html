@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerryCentrinoFang</title>
+    <style>
+        *{
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .vidbg{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            position: relative;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .videobg{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 1000px;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="vidbg">
+        <h1>Portofolio</h1>
+        <video class="videobg" src="video/landing page.mp4" autoplay muted loop></video>
+
+    </div>
+
+    <script>
+        //pindah ke halaman lain selama 5 detik
+        setTimeout(function(){
+            window.location.href = "index.html"; //akan pindah otomastis ke index 2 
+            
+        },5000); // satuan detik dikonversi dalam ms (5.000 ms = 5 detik)
+    </script>
+</body>
+</html>
