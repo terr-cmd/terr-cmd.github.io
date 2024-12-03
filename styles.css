@@ -1,0 +1,50 @@
+body{
+    background: #5aa5f0;
+}
+.banner{
+    background: url(img/codebg.jpg)  no-repeat center center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: white;
+    text-transform: capitalize  ;
+}
+
+.Terry1{
+    float: right;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.about{
+    background-color: #f4decb;
+    padding-bottom: 10%;
+}
+
+.pendidikan{
+    padding: 50px;
+}
+
+.card-text{
+    padding-top: 0px;
+
+}
+
+.kontak{
+    background: url(img/bg\ kontak\ kami.avif)  no-repeat center center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: white;
+    text-transform: capitalize  ;
+    
+}
+
+.carousel-inner{
+   padding-bottom: 30px;
+}
+
+.social img{
+    
+    max-height: 50px;
+}
